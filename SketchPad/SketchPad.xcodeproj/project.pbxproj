@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		174FF0371944B55300569B86 /* writing.xml in Resources */ = {isa = PBXBuildFile; fileRef = 174FF0361944B55300569B86 /* writing.xml */; };
+		174FF03A1944B68F00569B86 /* Point.m in Sources */ = {isa = PBXBuildFile; fileRef = 174FF0391944B68F00569B86 /* Point.m */; };
+		174FF03E1944B83900569B86 /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 174FF03D1944B83900569B86 /* Stroke.m */; };
+		174FF0411944B92D00569B86 /* Writing.m in Sources */ = {isa = PBXBuildFile; fileRef = 174FF0401944B92D00569B86 /* Writing.m */; };
+		175055CC18E484AB00DE1A58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175055CB18E484AB00DE1A58 /* Foundation.framework */; };
+		175055CE18E484AB00DE1A58 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175055CD18E484AB00DE1A58 /* CoreGraphics.framework */; };
+		175055D018E484AB00DE1A58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175055CF18E484AB00DE1A58 /* UIKit.framework */; };
+		175055D618E484AB00DE1A58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 175055D418E484AB00DE1A58 /* InfoPlist.strings */; };
+		175055D818E484AB00DE1A58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 175055D718E484AB00DE1A58 /* main.m */; };
+		175055DC18E484AB00DE1A58 /* SketchPadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 175055DB18E484AB00DE1A58 /* SketchPadAppDelegate.m */; };
+		175055DF18E484AB00DE1A58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 175055DD18E484AB00DE1A58 /* Main.storyboard */; };
+		175055E218E484AB00DE1A58 /* SketchPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 175055E118E484AB00DE1A58 /* SketchPadViewController.m */; };
+		175055E418E484AB00DE1A58 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 175055E318E484AB00DE1A58 /* Images.xcassets */; };
+		175055EB18E484AB00DE1A58 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175055EA18E484AB00DE1A58 /* XCTest.framework */; };
+		175055EC18E484AB00DE1A58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175055CB18E484AB00DE1A58 /* Foundation.framework */; };
+		175055ED18E484AB00DE1A58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175055CF18E484AB00DE1A58 /* UIKit.framework */; };
+		175055F518E484AB00DE1A58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 175055F318E484AB00DE1A58 /* InfoPlist.strings */; };
+		175055F718E484AB00DE1A58 /* SketchPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 175055F618E484AB00DE1A58 /* SketchPadTests.m */; };
+		1750560218E5F46F00DE1A58 /* SketchPadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1750560118E5F46F00DE1A58 /* SketchPadView.m */; };
+		17C33B0F19460FA200FF0784 /* Communicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C33B0E19460FA200FF0784 /* Communicator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		175055EE18E484AB00DE1A58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 175055C018E484AB00DE1A58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 175055C718E484AB00DE1A58;
+			remoteInfo = SketchPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		174FF0361944B55300569B86 /* writing.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = writing.xml; sourceTree = "<group>"; };
+		174FF0381944B68F00569B86 /* Point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Point.h; path = domain/Point.h; sourceTree = "<group>"; };
+		174FF0391944B68F00569B86 /* Point.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Point.m; path = domain/Point.m; sourceTree = "<group>"; };
+		174FF03C1944B83900569B86 /* Stroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stroke.h; path = domain/Stroke.h; sourceTree = "<group>"; };
+		174FF03D1944B83900569B86 /* Stroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stroke.m; path = domain/Stroke.m; sourceTree = "<group>"; };
+		174FF03F1944B92D00569B86 /* Writing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Writing.h; path = domain/Writing.h; sourceTree = "<group>"; };
+		174FF0401944B92D00569B86 /* Writing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Writing.m; path = domain/Writing.m; sourceTree = "<group>"; };
+		175055C818E484AB00DE1A58 /* SketchPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SketchPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		175055CB18E484AB00DE1A58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		175055CD18E484AB00DE1A58 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		175055CF18E484AB00DE1A58 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		175055D318E484AB00DE1A58 /* SketchPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SketchPad-Info.plist"; sourceTree = "<group>"; };
+		175055D518E484AB00DE1A58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		175055D718E484AB00DE1A58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		175055D918E484AB00DE1A58 /* SketchPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SketchPad-Prefix.pch"; sourceTree = "<group>"; };
+		175055DA18E484AB00DE1A58 /* SketchPadAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SketchPadAppDelegate.h; sourceTree = "<group>"; };
+		175055DB18E484AB00DE1A58 /* SketchPadAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SketchPadAppDelegate.m; sourceTree = "<group>"; };
+		175055DE18E484AB00DE1A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		175055E018E484AB00DE1A58 /* SketchPadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SketchPadViewController.h; sourceTree = "<group>"; };
+		175055E118E484AB00DE1A58 /* SketchPadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SketchPadViewController.m; sourceTree = "<group>"; };
+		175055E318E484AB00DE1A58 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		175055E918E484AB00DE1A58 /* SketchPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SketchPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		175055EA18E484AB00DE1A58 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		175055F218E484AB00DE1A58 /* SketchPadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SketchPadTests-Info.plist"; sourceTree = "<group>"; };
+		175055F418E484AB00DE1A58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		175055F618E484AB00DE1A58 /* SketchPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SketchPadTests.m; sourceTree = "<group>"; };
+		1750560018E5F46F00DE1A58 /* SketchPadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SketchPadView.h; sourceTree = "<group>"; };
+		1750560118E5F46F00DE1A58 /* SketchPadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SketchPadView.m; sourceTree = "<group>"; };
+		17C33B0D19460FA200FF0784 /* Communicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Communicator.h; path = domain/Communicator.h; sourceTree = "<group>"; };
+		17C33B0E19460FA200FF0784 /* Communicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Communicator.m; path = domain/Communicator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		175055C518E484AB00DE1A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175055CE18E484AB00DE1A58 /* CoreGraphics.framework in Frameworks */,
+				175055D018E484AB00DE1A58 /* UIKit.framework in Frameworks */,
+				175055CC18E484AB00DE1A58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		175055E618E484AB00DE1A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175055EB18E484AB00DE1A58 /* XCTest.framework in Frameworks */,
+				175055ED18E484AB00DE1A58 /* UIKit.framework in Frameworks */,
+				175055EC18E484AB00DE1A58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		174FF03B1944B6A800569B86 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				174FF0381944B68F00569B86 /* Point.h */,
+				174FF0391944B68F00569B86 /* Point.m */,
+				174FF03C1944B83900569B86 /* Stroke.h */,
+				174FF03D1944B83900569B86 /* Stroke.m */,
+				174FF03F1944B92D00569B86 /* Writing.h */,
+				174FF0401944B92D00569B86 /* Writing.m */,
+				17C33B0D19460FA200FF0784 /* Communicator.h */,
+				17C33B0E19460FA200FF0784 /* Communicator.m */,
+			);
+			name = domain;
+			sourceTree = "<group>";
+		};
+		175055BF18E484AB00DE1A58 = {
+			isa = PBXGroup;
+			children = (
+				175055D118E484AB00DE1A58 /* SketchPad */,
+				175055F018E484AB00DE1A58 /* SketchPadTests */,
+				175055CA18E484AB00DE1A58 /* Frameworks */,
+				175055C918E484AB00DE1A58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		175055C918E484AB00DE1A58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				175055C818E484AB00DE1A58 /* SketchPad.app */,
+				175055E918E484AB00DE1A58 /* SketchPadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		175055CA18E484AB00DE1A58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				175055CB18E484AB00DE1A58 /* Foundation.framework */,
+				175055CD18E484AB00DE1A58 /* CoreGraphics.framework */,
+				175055CF18E484AB00DE1A58 /* UIKit.framework */,
+				175055EA18E484AB00DE1A58 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		175055D118E484AB00DE1A58 /* SketchPad */ = {
+			isa = PBXGroup;
+			children = (
+				174FF03B1944B6A800569B86 /* domain */,
+				175055DD18E484AB00DE1A58 /* Main.storyboard */,
+				175055E018E484AB00DE1A58 /* SketchPadViewController.h */,
+				175055E118E484AB00DE1A58 /* SketchPadViewController.m */,
+				1750560018E5F46F00DE1A58 /* SketchPadView.h */,
+				1750560118E5F46F00DE1A58 /* SketchPadView.m */,
+				175055E318E484AB00DE1A58 /* Images.xcassets */,
+				175055D218E484AB00DE1A58 /* Supporting Files */,
+				174FF0361944B55300569B86 /* writing.xml */,
+			);
+			path = SketchPad;
+			sourceTree = "<group>";
+		};
+		175055D218E484AB00DE1A58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				175055D318E484AB00DE1A58 /* SketchPad-Info.plist */,
+				175055DA18E484AB00DE1A58 /* SketchPadAppDelegate.h */,
+				175055DB18E484AB00DE1A58 /* SketchPadAppDelegate.m */,
+				175055D418E484AB00DE1A58 /* InfoPlist.strings */,
+				175055D718E484AB00DE1A58 /* main.m */,
+				175055D918E484AB00DE1A58 /* SketchPad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		175055F018E484AB00DE1A58 /* SketchPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				175055F618E484AB00DE1A58 /* SketchPadTests.m */,
+				175055F118E484AB00DE1A58 /* Supporting Files */,
+			);
+			path = SketchPadTests;
+			sourceTree = "<group>";
+		};
+		175055F118E484AB00DE1A58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				175055F218E484AB00DE1A58 /* SketchPadTests-Info.plist */,
+				175055F318E484AB00DE1A58 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		175055C718E484AB00DE1A58 /* SketchPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 175055FA18E484AB00DE1A58 /* Build configuration list for PBXNativeTarget "SketchPad" */;
+			buildPhases = (
+				175055C418E484AB00DE1A58 /* Sources */,
+				175055C518E484AB00DE1A58 /* Frameworks */,
+				175055C618E484AB00DE1A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SketchPad;
+			productName = SketchPad;
+			productReference = 175055C818E484AB00DE1A58 /* SketchPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		175055E818E484AB00DE1A58 /* SketchPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 175055FD18E484AB00DE1A58 /* Build configuration list for PBXNativeTarget "SketchPadTests" */;
+			buildPhases = (
+				175055E518E484AB00DE1A58 /* Sources */,
+				175055E618E484AB00DE1A58 /* Frameworks */,
+				175055E718E484AB00DE1A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				175055EF18E484AB00DE1A58 /* PBXTargetDependency */,
+			);
+			name = SketchPadTests;
+			productName = SketchPadTests;
+			productReference = 175055E918E484AB00DE1A58 /* SketchPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		175055C018E484AB00DE1A58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SketchPad;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Paul Titei";
+				TargetAttributes = {
+					175055E818E484AB00DE1A58 = {
+						TestTargetID = 175055C718E484AB00DE1A58;
+					};
+				};
+			};
+			buildConfigurationList = 175055C318E484AB00DE1A58 /* Build configuration list for PBXProject "SketchPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 175055BF18E484AB00DE1A58;
+			productRefGroup = 175055C918E484AB00DE1A58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				175055C718E484AB00DE1A58 /* SketchPad */,
+				175055E818E484AB00DE1A58 /* SketchPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		175055C618E484AB00DE1A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175055E418E484AB00DE1A58 /* Images.xcassets in Resources */,
+				175055D618E484AB00DE1A58 /* InfoPlist.strings in Resources */,
+				174FF0371944B55300569B86 /* writing.xml in Resources */,
+				175055DF18E484AB00DE1A58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		175055E718E484AB00DE1A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175055F518E484AB00DE1A58 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		175055C418E484AB00DE1A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1750560218E5F46F00DE1A58 /* SketchPadView.m in Sources */,
+				175055DC18E484AB00DE1A58 /* SketchPadAppDelegate.m in Sources */,
+				17C33B0F19460FA200FF0784 /* Communicator.m in Sources */,
+				175055E218E484AB00DE1A58 /* SketchPadViewController.m in Sources */,
+				174FF03A1944B68F00569B86 /* Point.m in Sources */,
+				174FF0411944B92D00569B86 /* Writing.m in Sources */,
+				175055D818E484AB00DE1A58 /* main.m in Sources */,
+				174FF03E1944B83900569B86 /* Stroke.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		175055E518E484AB00DE1A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175055F718E484AB00DE1A58 /* SketchPadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		175055EF18E484AB00DE1A58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 175055C718E484AB00DE1A58 /* SketchPad */;
+			targetProxy = 175055EE18E484AB00DE1A58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		175055D418E484AB00DE1A58 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				175055D518E484AB00DE1A58 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		175055DD18E484AB00DE1A58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				175055DE18E484AB00DE1A58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		175055F318E484AB00DE1A58 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				175055F418E484AB00DE1A58 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		175055F818E484AB00DE1A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		175055F918E484AB00DE1A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		175055FB18E484AB00DE1A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SketchPad/SketchPad-Prefix.pch";
+				INFOPLIST_FILE = "SketchPad/SketchPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		175055FC18E484AB00DE1A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SketchPad/SketchPad-Prefix.pch";
+				INFOPLIST_FILE = "SketchPad/SketchPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		175055FE18E484AB00DE1A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SketchPad.app/SketchPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SketchPad/SketchPad-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SketchPadTests/SketchPadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		175055FF18E484AB00DE1A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SketchPad.app/SketchPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SketchPad/SketchPad-Prefix.pch";
+				INFOPLIST_FILE = "SketchPadTests/SketchPadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		175055C318E484AB00DE1A58 /* Build configuration list for PBXProject "SketchPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				175055F818E484AB00DE1A58 /* Debug */,
+				175055F918E484AB00DE1A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		175055FA18E484AB00DE1A58 /* Build configuration list for PBXNativeTarget "SketchPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				175055FB18E484AB00DE1A58 /* Debug */,
+				175055FC18E484AB00DE1A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		175055FD18E484AB00DE1A58 /* Build configuration list for PBXNativeTarget "SketchPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				175055FE18E484AB00DE1A58 /* Debug */,
+				175055FF18E484AB00DE1A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 175055C018E484AB00DE1A58 /* Project object */;
+}
